@@ -3,20 +3,24 @@
     box-sizing: border-box;
     margin: 0;
 }
+/* the style of the entire webpage */
 body{
     background-color:  rgb(205, 237, 237);
 }
+/* title */
 h1{
     font-family: 'Times New Roman', Times, serif;
     color: lightblue;
     font-size: 50px;
 }
+/* subhedding  */
 p{
     font-family: monospace;
     font-size: 25px;
     color: lightseagreen;
     font-style: oblique;
 }
+/* the colour and style of the header - now different because of animation */
 .header{
     text-align: center;
     padding: 20px;
