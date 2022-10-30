@@ -102,10 +102,10 @@ p{
 /* changes text size with screen size */
 @media screen and (max-width: 500px) {
     h1{
-        font-size: 50px;
+        font-size: 35px;
     }
     p{
-        font-size: 25px;
+        font-size: 15px;
     }
     .header{
         flex-direction: column;
