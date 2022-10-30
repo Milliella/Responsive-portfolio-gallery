@@ -1,3 +1,4 @@
+/* makes the images the size you want them to be with the padding and border included */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -47,7 +48,7 @@ p{
     flex-direction: row-reverse;
 }
 
-/* column details */
+/* column details- change the layout and appearance of column */
 .column{
     flex: 25%;
     max-width: 30%;
@@ -56,7 +57,7 @@ p{
     
 }
 
-/* image styling and layout- changing how the images look */
+/* image styling and layout- changing how the images look and appear */
 .column img{
     margin-top: 10px;
     width: 100%;
