@@ -44,12 +44,12 @@ p{
     display: flex;
     flex-wrap: wrap;
     padding: 40px;
-    align-items: center;
+    /* /* align-items: center; */
     justify-content: center;
     gap: 10px;
     object-fit: cover;
     border-radius: 10px;
-    flex-direction: row-reverse;
+    /* flex-direction: row-reverse; */
 }
 
 /* column details- change the layout and appearance of column */
@@ -65,7 +65,7 @@ p{
 .column img{
     margin-top: 10px;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     position: relative;
     box-shadow: 10px 10px rgb(14, 37, 48);
     border-radius: 5px;
@@ -88,14 +88,23 @@ p{
 /* makes the images change to better fit screensize*/
 @media screen and (max-width: 900px) {
     .column{
-        flex: 100%;
-        max-width: 100%;
+        flex: 40%;
+        max-width: 70%;
     }  
 }
 @media screen and (max-width: 500px) {
     .column{
         flex: 100%;
+        max-width:100%;
+        
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .column{
+        flex: 100%;
         max-width: 100%;
+        
     }
     
 }
